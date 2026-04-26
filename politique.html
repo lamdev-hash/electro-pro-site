@@ -3,82 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de Confidentialité - Electro Pro</title>
+    <title>Vie Privée - Electro Pro</title>
     <style>
+        :root {
+            --primary-color: #1a73e8;
+            --text-color: #3c4043;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            color: #24292e;
-            max-width: 800px;
-            margin: 0 auto;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
             padding: 20px;
-            background-color: #f6f8fa;
         }
         .container {
-            background-color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
             padding: 40px;
-            border: 1px solid #e1e4e8;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px rgba(27,31,35,0.12);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
-        h1 {
-            color: #0366d6;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #24292e;
-            margin-top: 24px;
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 5px;
-        }
-        .date {
-            color: #586069;
-            font-size: 0.9em;
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #e8eaed;
+            padding-bottom: 20px;
             margin-bottom: 30px;
         }
-        footer {
-            margin-top: 40px;
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .shield-icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: var(--primary-color);
+            font-size: 20px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+        }
+        .highlight-box {
+            background-color: #e8f0fe;
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .footer {
             text-align: center;
-            font-size: 0.8em;
-            color: #6a737d;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #70757a;
+        }
+        .contact-btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Politique de Confidentialité</h1>
-        <p class="date">Dernière mise à jour : 26 avril 2026</p>
 
-        <p>L'application <strong>Electro Pro</strong> s'engage à protéger la vie privée de ses utilisateurs. Cette page vous informe de nos politiques concernant la collecte, l'utilisation et la divulgation des données personnelles lorsque vous utilisez notre service.</p>
-
-        <h2>1. Collecte et utilisation des informations</h2>
-        <p>Pour une meilleure expérience, et lors de l'utilisation de notre service, nous pouvons vous demander de nous fournir certaines informations d'identification non personnelles. Les informations que nous demandons seront conservées sur votre appareil et ne sont en aucun cas collectées par nous directement.</p>
-
-        <h2>2. Services tiers</h2>
-        <p>L'application utilise des services tiers qui peuvent collecter des informations utilisées pour vous identifier :</p>
-        <ul>
-            <li><strong>Google Play Services</strong></li>
-            <li><strong>AdMob</strong> (pour la publicité)</li>
-            <li><strong>Google Analytics pour Firebase</strong></li>
-        </ul>
-
-        <h2>3. Fichiers journaux (Log Data)</h2>
-        <p>En cas d'erreur dans l'application, nous collectons des données et des informations (via des produits tiers) sur votre téléphone appelées Log Data. Ces données peuvent inclure des informations telles que l'adresse IP de votre appareil, le nom de l'appareil, la version du système d'exploitation, la configuration de l'application lors de l'utilisation de notre service, l'heure et la date de votre utilisation du service.</p>
-
-        <h2>4. Cookies</h2>
-        <p>Les cookies sont des fichiers avec une petite quantité de données qui sont couramment utilisés comme identifiants uniques anonymes. L'application n'utilise pas ces « cookies » explicitement. Cependant, l'application peut utiliser du code tiers et des bibliothèques qui utilisent des « cookies » pour collecter des informations et améliorer leurs services.</p>
-
-        <h2>5. Sécurité</h2>
-        <p>Nous apprécions votre confiance en nous fournissant vos informations, c'est pourquoi nous nous efforçons d'utiliser des moyens commercialement acceptables pour les protéger. Mais n'oubliez pas qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sûre et fiable à 100 %.</p>
-
-        <h2>6. Liens vers d'autres sites</h2>
-        <p>Ce service peut contient des liens vers d'autres sites (notamment YouTube pour les vidéos pédagogiques). Si vous cliquez sur un lien tiers, vous serez dirigé vers ce site. Notez que ces sites externes ne sont pas exploités par nous.</p>
-
-    
-        <footer>
-            &copy; 2026 Electro Pro - Développeur Android
-        </footer>
+<div class="container">
+    <div class="header">
+        <div class="shield-icon">🛡️</div>
+        <h1>Votre vie privée est notre priorité</h1>
+        <p>Application <strong>Electro Pro</strong> | Mise à jour : 26 avril 2026</p>
     </div>
+
+    <div class="highlight-box">
+        <strong>Engagement de transparence :</strong> Nous pensons que pour apprendre l'électricité, vous n'avez pas besoin de nous confier vos données privées. C'est pourquoi Electro Pro est conçu pour fonctionner sans aucune collecte de données personnelles.
+    </div>
+
+    <h2>1. Zéro collecte de données nominatives</h2>
+    <p>Nous tenons à être formels : <strong>Electro Pro ne collecte, ne stocke, ni ne traite aucune donnée permettant de vous identifier personnellement.</strong></p>
+    <ul>
+        <li>❌ Aucun nom, adresse e-mail ou numéro de téléphone requis.</li>
+        <li>❌ Aucun accès à vos contacts, votre caméra ou vos fichiers personnels.</li>
+        <li>❌ Aucune création de compte obligatoire pour utiliser l'application.</li>
+    </ul>
+
+    <h2>2. Services techniques tiers</h2>
+    <p>Pour assurer la gratuité et la qualité de l'application, nous utilisons des outils techniques de confiance fournis par Google :</p>
+    <ul>
+        <li><strong>Google AdMob :</strong> Affiche des publicités. AdMob utilise un identifiant technique anonyme pour éviter de vous montrer plusieurs fois la même annonce.</li>
+        <li><strong>Firebase Analytics :</strong> Nous fournit des statistiques globales (ex: "Combien de personnes utilisent l'application chaque jour") afin d'améliorer nos cours. Ces données sont totalement anonymisées.</li>
+        <li><strong>YouTube API :</strong> Permet de visionner les vidéos éducatives directement depuis l'application.</li>
+    </ul>
+
+    <h2>3. Sécurité de votre navigation</h2>
+    <p>Même si nous ne collectons rien, votre sécurité est assurée par des protocoles de communication cryptés (HTTPS). Cela garantit que votre utilisation d'Electro Pro reste privée et protégée contre toute interception.</p>
+
+    <h2>4. Contrôle total de vos réglages</h2>
+    <p>Conformément aux lois internationales (RGPD), vous gardez le contrôle. Vous pouvez à tout moment réinitialiser votre identifiant publicitaire ou désactiver la personnalisation des annonces dans les réglages de votre téléphone : <em>Paramètres > Google > Annonces</em>.</p>
+
+    <h2>5. Contact</h2>
+    <p>Si vous avez la moindre question sur notre politique de protection de la vie privée, notre équipe est à votre écoute :</p>
+    <p><strong>E-mail :</strong> laminefalldeveloppeur@gmail.com</p>
+    <a href="mailto:[VOTRE_EMAIL_ICI]" class="contact-btn">Nous contacter par e-mail</a>
+
+    <div class="footer">
+        &copy; 2026 Electro Pro - Développeur d'applications Android éducatives.
+    </div>
+</div>
+
 </body>
 </html>
